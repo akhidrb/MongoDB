@@ -1,0 +1,112 @@
+MongoDB shell version v3.6.4
+connecting to: mongodb://127.0.0.1:27017/users
+MongoDB server version: 3.6.4
+{
+	"_id" : ObjectId("5af384fc0adb6b8917795665"),
+	"name" : "John Doe",
+	"gender" : "M",
+	"age" : 26,
+	"email" : "johndoe@aucegypt.edu",
+	"username" : "johndoe",
+	"password" : "john123",
+	"profilePic" : "images/john_doe.png",
+	"dateCreated" : ISODate("2018-05-09T23:34:57.572Z"),
+	"dateModified" : ISODate("2018-05-09T23:42:24.241Z"),
+	"userID" : 1,
+	"posts" : [
+		{
+			"postID" : 1,
+			"post" : "There are many dbs out there!!",
+			"datePosted" : ISODate("2018-05-14T23:10:22.646Z"),
+			"comments" : [
+				{
+					"commenterID" : 2,
+					"text" : "Yes. There are SQL and NoSQL dbs.",
+					"datePosted" : ISODate("2018-05-15T00:10:32.843Z"),
+					"reactions" : [
+						{
+							"reactorID" : 2,
+							"reaction" : "Dislike",
+							"datePosted" : ISODate("2018-05-15T00:46:07.160Z")
+						}
+					]
+				}
+			],
+			"reactions" : [ ]
+		}
+	]
+}
+{
+	"_id" : ObjectId("5af385560adb6b8917795666"),
+	"name" : "Steven Huntly",
+	"gender" : "M",
+	"age" : 35,
+	"email" : "stevenhuntly@aucegypt.edu",
+	"username" : "stevenhuntly",
+	"password" : "steven123",
+	"profilePic" : "images/steven_huntly.png",
+	"dateCreated" : ISODate("2018-05-09T23:36:49.064Z"),
+	"userID" : 2
+}
+{
+	"_id" : ObjectId("5af38c110adb6b8917795669"),
+	"name" : "Mr Bean",
+	"gender" : "M",
+	"age" : 45,
+	"email" : "bean@aucegypt.edu",
+	"username" : "bean",
+	"password" : "bean123",
+	"profilePic" : "images/bean.png",
+	"dateCreated" : ISODate("2018-05-10T00:02:25.761Z"),
+	"dateModified" : ISODate("2018-05-14T11:37:13.263Z"),
+	"userID" : 3,
+	"pictures" : [
+		{
+			"pic" : "https://i.ytimg.com/vi/0Iykn4mBT9U/maxresdefault.jpg",
+			"caption" : "Me on the beach",
+			"datePosted" : ISODate("2018-05-15T00:13:33.196Z"),
+			"comments" : [
+				{
+					"commenterID" : 2,
+					"text" : "Nice Picture",
+					"datePosted" : ISODate("2018-05-15T00:14:26.221Z"),
+					"comments" : [
+						{
+							"commenterID" : 2,
+							"text" : "Thanks Man",
+							"datePosted" : ISODate("2018-05-15T00:31:55.790Z"),
+							"comments" : [
+								{
+									"commenterID" : 2,
+									"text" : "Ya no biggy",
+									"datePosted" : ISODate("2018-05-15T00:32:52.862Z")
+								}
+							]
+						}
+					]
+				}
+			],
+			"reactions" : [
+				{
+					"reactorID" : 2,
+					"reaction" : "Like",
+					"datePosted" : ISODate("2018-05-15T00:43:07.156Z")
+				}
+			]
+		}
+	]
+}
+{
+	"_id" : ObjectId("5af38c110adb6b891779566a"),
+	"name" : "Shaun Sheep",
+	"gender" : "M",
+	"age" : 10,
+	"email" : "shaun@aucegypt.edu",
+	"username" : "shaun",
+	"password" : "shaun123",
+	"profilePic" : "images/shaun.png",
+	"dateCreated" : ISODate("2018-05-10T00:02:25.761Z"),
+	"userID" : 4,
+	"posts" : [ ]
+}
+bye
